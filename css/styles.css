@@ -162,7 +162,10 @@ main {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg) center/cover no-repeat; /* ефект заблуреного фото*/
+    url(../images/people-office\ 1.jpg); /* ефект заблуреного фото*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   padding: 0 156px;
   height: 600px;
@@ -201,6 +204,7 @@ main {
   letter-spacing: 0.04em;
   text-transform: capitalize;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-service-button:hover,
