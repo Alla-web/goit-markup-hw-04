@@ -251,17 +251,18 @@ main {
 }
 
 .second-section-content-item .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
   width: 264px;
-  height: 116px;
+  height: 112px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
 }
 
 .second-section-content-item .icon {
-  margin: 24px 100px;
-  width: 64px;
-  height: 64px;
   fill: none;
 }
 
@@ -271,7 +272,7 @@ main {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 8px 0;
+  margin-bottom: 8px;
 }
 
 .second-section-paragraph {
