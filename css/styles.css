@@ -347,22 +347,23 @@ main {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #4d5ae5;
+  background-color: #404bbf;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.media-link:hover {
+.media-link:hover,
+.media-link:focus {
   background-color: #fff;
 }
 
 .media-icon {
   fill: #f4f4fd;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-link:hover .media-icon,
 .media-link:focus .media-icon {
-  background-color: #404bbf;
+  fill: #404bbf;
 }
 
 /* fourth section styles */
@@ -418,7 +419,7 @@ main {
 }
 
 .fourth-section-cads:hover .overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .fourth-section-cads:hover,
