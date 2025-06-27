@@ -356,13 +356,13 @@ main {
 }
 
 .media-icon {
-  fill: #fff;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-link:hover .media-icon,
 .media-link:focus .media-icon {
-  fill: #404bbf;
+  background-color: #404bbf;
 }
 
 /* fourth section styles */
