@@ -353,7 +353,8 @@ main {
 
 .media-link:hover,
 .media-link:focus {
-  background-color: #fff;
+  /* background-color: #ffffff; */
+  background-color: #404bbf;
 }
 
 .media-icon {
