@@ -157,7 +157,12 @@ main {
 /* first section styles */
 .first-section {
   max-width: 1440px;
+  height: 600px;
+  padding: 0 156px;
+  padding: 0 484px;
+  padding: 188px 0;
   background-color: #2e2f42;
+  color: white;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -166,11 +171,6 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
-  padding: 0 156px;
-  height: 600px;
-  padding: 0 484px;
-  padding: 188px 0;
 }
 
 .first-section-container {
