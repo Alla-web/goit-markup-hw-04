@@ -157,9 +157,8 @@ main {
 /* first section styles */
 .first-section {
   max-width: 1440px;
+  margin: 0 auto;
   height: 600px;
-  /* padding: 0 156px; */
-  /* padding: 0 484px; */
   padding: 188px 0;
   background-color: #2e2f42;
   color: white;
@@ -358,13 +357,13 @@ main {
 }
 
 .media-icon {
-  fill: #404bbf; /* #f4f4fd */
+  fill: #404bbf; /* #f4f4fd - мой вариант */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-link:hover .media-icon,
 .media-link:focus .media-icon {
-  fill: #f4f4fd; /* #404bbf */
+  fill: #f4f4fd; /* #404bbf - мой вариант */
 }
 
 /* fourth section styles */
